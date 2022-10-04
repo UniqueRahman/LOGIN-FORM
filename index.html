@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+<div class="car">
+    <div class="form">
+        <div class="img">
+            <img class="icon" src="./img/ur1 logo.png" alt="No icon">
+            <img src="./img/login.jpg" alt="">
+            
+        </div>
+        <div class="content">
+
+            <div class="start1">
+            <a>Already have an account?</a>
+            <button>sign in</button>
+            </div>
+
+            <div class="start2">
+            <h3>Welcome to all!</h3>
+            <a>register your account</a>
+            </div>
+
+            <form action="#">
+                <div class="form-group">
+                    <label>User Name</label><br>
+                    <input type="text" name="name" placeholder="Enter Your Name" autocomplete="off" required >
+                </div>
+
+                <div class="form-group">
+                    <label for="email" >Email</label><br>
+                    <input type="text" name="email" pattern=".+@gmail\.com" placeholder="Enter Your @gmail.com" autocomplete="off" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password</label><br>
+                    <input type="password" name="password"  minlength="8" placeholder="Enter Your Password + 8" autocomplete="off" required>
+                </div>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="icon">
+    
+</div>
+
+</body>
+</html>

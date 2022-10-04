@@ -1,0 +1,144 @@
+/* .color{   
+color :#13678A;
+color :#45C4B0;
+color :#9AEBA3;
+color: #DAFDBA;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Basic', sans-serif;
+    background-color: #13678A;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #012030;
+   
+}
+.form{
+    width: 800px;
+    height:500px;
+    border-radius: 10px;
+    background:#90dfd3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    display: flex;
+    position: relative;
+}
+
+.img{
+    min-width: 350px;
+    height: 100%;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.content{
+    margin-top: 20px;
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+}
+.start1{
+    margin-left:130px;
+}
+.content .start1 a{
+    font-size: 12px;
+    color: #444f55;
+}
+.content .start1 button{
+    margin-left: 15px;
+    width: 70px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 8px;
+    
+}
+.content .start1 button:hover {
+    background-color: #13678A;
+    color: white;
+    
+}
+
+.start2{
+    margin-top: 30px;
+}
+
+.start2 h3{
+    font-size: 25px;;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.start2 a{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #444f55;
+
+}
+form{
+    margin-top: 20px;
+}
+form .form-group{
+    margin-top: 20px;
+}
+
+form .form-group input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+form .form-group input:focus,
+form .form-group input:valid
+{
+    outline: 0;
+    border: 3px solid  #13678A;
+}
+
+form button{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 40%;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #13678A;
+   text-transform: uppercase;
+}
+form button:active{
+    transform: scale(0.98);
+    
+}
+
+.icon{
+    cursor: pointer;
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top :10px;
+    left: 15px;
+}
+
+
+
+
+
+
